@@ -1,0 +1,22 @@
+type Query {
+  info: String!
+  work: [Work!]!
+}
+
+type Work {
+  title: String
+  items: [WorkItem!]
+}
+
+type WorkItem {
+  id: ID!
+  title: String!
+  subTitle: String
+  information: [String]
+  pictures: [WorkPicture!]
+}
+
+type WorkPicture {
+  url: String!
+  alt: String
+}
