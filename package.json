@@ -1,0 +1,25 @@
+{
+  "name": "donatello-backend",
+  "version": "1.0.0-alpha",
+  "description": "GraphQL Backend for serving Donatello Frontend with Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/provokant/donatello-backend.git"
+  },
+  "keywords": [
+    "donatello",
+    "graphql",
+    "api",
+    "backend"
+  ],
+  "author": "Michael Czechowski <mail@dailysh.it>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/provokant/donatello-backend/issues"
+  },
+  "homepage": "https://github.com/provokant/donatello-backend#readme"
+}
